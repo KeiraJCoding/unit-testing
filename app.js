@@ -7,7 +7,12 @@ const addWord = (word, arr) => {
     return arr;
 }
 
+const myArray = (arr) => {
+    arr.includes('demi');
+    return arr
+}
+
 module.exports = {
-    add, addWord,
+    add, addWord, myArray
 }
 
